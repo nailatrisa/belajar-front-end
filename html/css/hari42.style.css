@@ -1,0 +1,23 @@
+.box {
+    /* Translate - geser */
+    transform: translateX(50px);
+    transform: translateY(-20px);
+    transform: translate(50px, -20px);
+    
+    /* Rotate - putar */
+    transform: rotate(45deg);
+    transform: rotate(-90deg);
+    
+    /* Scale - ubah ukuran */
+    transform: scale(1.2);
+    transform: scaleX(1.5);
+    
+    /* Skew - miringkan */
+    transform: skewX(10deg);
+    
+    /* Kombinasi */
+    transform: translate(-50%, -50%) scale(1.1);
+    
+    /* Transform origin */
+    transform-origin: top left;
+}

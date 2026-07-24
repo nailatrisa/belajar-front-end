@@ -1,0 +1,10 @@
+<!-- Menyimpan data custom -->
+<div data-user-id="123" data-role="admin">
+    User Admin
+</div>
+
+<button data-action="delete" data-id="42">Hapus</button>
+
+<!-- Di JavaScript -->
+const el = document.querySelector('[data-user-id]');
+const userId = el.dataset.userId; // "123"

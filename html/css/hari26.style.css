@@ -1,0 +1,46 @@
+/* block: mengambil lebar penuh, baris baru */
+div {
+    display: block;
+}
+
+/* inline: sesuai konten, tidak bisa width/height */
+span {
+    display: inline;
+    color: blue;
+}
+
+/* inline-block: inline tapi bisa width/height */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* none: elemen disembunyikan */
+.hidden {
+    display: none;
+}
+
+/* flex: Flexbox Layout */
+.container-flex {
+    display: flex;
+    gap: 10px;
+}
+
+/* grid: CSS Grid Layout */
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px;
+}
+
+/* Kotak contoh */
+.box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

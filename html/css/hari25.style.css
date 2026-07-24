@@ -1,0 +1,26 @@
+.box {
+    /* Content */
+    width: 300px;
+    height: 200px;
+    
+    /* Padding - jarak dalam */
+    padding: 20px;
+    /* atau: padding: 10px 20px 30px 40px; (top right bottom left) */
+    
+    /* Border */
+    border: 2px solid #6C63FF;
+    border-radius: 12px;
+    
+    /* Margin - jarak luar */
+    margin: 20px;
+    
+    /* Box-sizing penting! */
+    box-sizing: border-box;
+}
+
+/* Reset box-sizing untuk semua elemen */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

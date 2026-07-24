@@ -1,0 +1,30 @@
+/* static: default, tidak bisa top/left/right/bottom */
+.static { position: static; }
+
+/* relative: relatif dari posisi normal */
+.relative {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* absolute: relatif dari parent yang positioned */
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* fixed: relatif dari viewport (tidak scroll) */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* sticky: hybrid relative + fixed */
+.sidebar {
+    position: sticky;
+    top: 0;
+}

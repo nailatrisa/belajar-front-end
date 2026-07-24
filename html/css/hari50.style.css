@@ -1,0 +1,7 @@
+/* BEM Methodology */
+/* Block__Element--Modifier */
+.card { }                    /* Block */
+.card__title { }             /* Element */
+.card__image { }             /* Element */
+.card--featured { }          /* Modifier */
+.card__button--primary { }   /* Element + Modifier */

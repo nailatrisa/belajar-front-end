@@ -1,0 +1,18 @@
+/* Structural */
+li:first-child { font-weight: bold; }
+li:last-child { border-bottom: none; }
+li:nth-child(2n) { background: #f5f5f5; }
+li:nth-child(3n+1) { color: blue; }
+
+/* State */
+a:hover { color: red; }
+a:active { color: darkred; }
+input:focus { border-color: blue; }
+input:disabled { opacity: 0.5; }
+input:checked + label { color: green; }
+input:valid { border-color: green; }
+input:invalid { border-color: red; }
+input:placeholder-shown { border-color: gray; }
+
+/* Negation */
+p:not(.special) { color: gray; }

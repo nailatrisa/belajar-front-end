@@ -1,0 +1,25 @@
+/* Definisikan variabel */
+:root {
+    --primary: #6C63FF;
+    --secondary: #3F3D56;
+    --accent: #FF6584;
+    --font-main: 'Inter', sans-serif;
+    --spacing: 1rem;
+    --radius: 12px;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Gunakan variabel */
+.button {
+    background: var(--primary);
+    color: white;
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-family: var(--font-main);
+}
+
+/* Dengan fallback */
+.box {
+    color: var(--text-color, black);
+}

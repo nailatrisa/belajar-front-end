@@ -1,0 +1,23 @@
+/* Warna */
+.box {
+    color: red;                    /* Nama warna */
+    color: #ff0000;                /* Hex */
+    color: rgb(255, 0, 0);         /* RGB */
+    color: rgba(255, 0, 0, 0.5);  /* RGBA (dengan transparansi) */
+    color: hsl(0, 100%, 50%);     /* HSL */
+}
+
+/* Background */
+.hero {
+    background-color: #1a1a2e;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Gradient */
+.gradient {
+    background: linear-gradient(135deg, #6C63FF, #FF6584);
+}

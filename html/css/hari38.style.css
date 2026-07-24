@@ -1,0 +1,15 @@
+.box {
+    /* calc() - perhitungan */
+    width: calc(100% - 40px);
+    height: calc(100vh - 80px);
+    
+    /* clamp() - responsive font */
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    
+    /* min() & max() */
+    width: min(100%, 800px);
+    padding: max(1rem, 5vw);
+    
+    /* attr() - ambil atribut */
+    content: attr(data-label);
+}

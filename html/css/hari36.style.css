@@ -1,0 +1,20 @@
+.modal {
+    position: fixed;
+    z-index: 1000;
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 100;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 50;
+}
+
+/* Stacking Order (belakang ke depan): */
+/* 1. background/border elemen */
+/* 2. positioned elements (negatif z-index) */
+/* 3. non-positioned elements */
+/* 4. positioned elements (positif z-index) */

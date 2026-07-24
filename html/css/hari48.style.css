@@ -1,0 +1,25 @@
+/* Horizontal scroll snap */
+.gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 1rem;
+}
+
+.gallery-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
+
+/* Vertical scroll snap */
+.sections {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+}

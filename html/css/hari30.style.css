@@ -1,0 +1,22 @@
+.card {
+    /* Box Shadow */
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    /* box-shadow: offset-x offset-y blur spread color */
+    
+    /* Multiple shadows */
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.1),
+        0 8px 16px rgba(0,0,0,0.1);
+    
+    /* Text Shadow */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    
+    /* Border Radius */
+    border-radius: 12px;
+    border-radius: 50%;     /* lingkaran */
+    border-radius: 12px 0 12px 0;
+    
+    /* Border */
+    border: 2px solid #6C63FF;
+    border-bottom: 1px solid #eee;
+}

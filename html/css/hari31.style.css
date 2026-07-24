@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;         /* row | row-reverse | column | column-reverse */
+    justify-content: center;     /* flex-start | center | flex-end | space-between | space-around | space-evenly */
+    align-items: center;         /* flex-start | center | flex-end | stretch | baseline */
+    gap: 20px;                   /* jarak antar item */
+    flex-wrap: wrap;             /* wrap | nowrap */
+}
+
+/* Flex Items */
+.item {
+    flex: 1;                    /* flex-grow flex-shrink flex-basis */
+    flex-grow: 1;               /* seberapa item membesar */
+    flex-shrink: 0;             /* seberapa item mengecil */
+    flex-basis: 200px;          /* ukuran awal */
+    align-self: flex-end;       /* override align-items */
+    order: -1;                  /* urutan tampilan */
+}

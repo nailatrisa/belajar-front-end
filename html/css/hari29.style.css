@@ -1,0 +1,19 @@
+/* Overflow */
+.box {
+    overflow: visible;  /* default, konten keluar */
+    overflow: hidden;   /* potong konten */
+    overflow: scroll;   /* selalu tampilkan scrollbar */
+    overflow: auto;     /* scrollbar hanya jika perlu */
+}
+
+/* Visibility */
+.hidden { visibility: hidden; }  /* tersembunyi tapi tetap ambil ruang */
+.hidden { display: none; }       /* tersembunyi dan tidak ambil ruang */
+.hidden { opacity: 0; }          /* transparan, tetap interaktif */
+
+/* Object-fit untuk gambar */
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;  /* cover, contain, fill */
+}

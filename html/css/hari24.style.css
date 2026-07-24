@@ -1,0 +1,19 @@
+/* Pengaturan Typography untuk seluruh halaman */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: none; /* uppercase, lowercase, capitalize */
+    text-decoration: none; /* underline, line-through, overline */
+}
+
+/* Pengaturan Heading */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}

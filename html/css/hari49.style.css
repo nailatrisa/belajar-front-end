@@ -1,0 +1,26 @@
+/* System preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1a1a2e;
+        --text: #e2e8f0;
+        --card-bg: #16213e;
+    }
+}
+
+/* Manual toggle */
+:root {
+    --bg: #ffffff;
+    --text: #1a1a2e;
+}
+
+[data-theme="dark"] {
+    --bg: #1a1a2e;
+    --text: #e2e8f0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
